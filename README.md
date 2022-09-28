@@ -15,4 +15,4 @@ cargo check --bin [file]<br>
 cargo build --release<br>
 ↑ プロジェクトが完成した場合、コマンドを実行してリリースする。<br>
 Cargo.toml = 設定ファイル<br>
-Cargo.lock = ビルド時の全ライブラリのバージョンが記載されている。(真偽は不明)(勉強中)<br>
+Cargo.lock = バージョンを参照するためのファイル (npmでいうところのpackage-lock.json)  
