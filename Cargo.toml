@@ -18,3 +18,7 @@ path = "src/main_1.rs"
 [[bin]]
 name = "main_2"
 path = "src/main_2.rs"
+
+[[bin]]
+name = "mut"
+path = "src/mut.rs"
