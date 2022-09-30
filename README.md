@@ -16,3 +16,6 @@ cargo build --release<br>
 ↑ プロジェクトが完成した場合、コマンドを実行してリリースする。<br>
 Cargo.toml = 設定ファイル<br>
 Cargo.lock = バージョンを参照するためのファイル (npmでいうところのpackage-lock.json)  
+mutable(可変)とimmutable(不可変)がある。  
+mutであっても、型は変更できない。
+型変更をするためには、シャドーイング（被せて宣言）を行う。  
