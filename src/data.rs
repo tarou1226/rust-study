@@ -4,7 +4,7 @@ fn main() {
     println!("{}", guess);
 
     // タプルの扱い方
-    let tup = (32, 3.2, "Hello");
+    let tup = (32, 5.0, "Hello");
     let (x, y, z) = tup;
     println!("{}, {}, {}", x, y, z);
     println!("{}", tup.0);
